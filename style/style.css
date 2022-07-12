@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Roboto:ital,wght@0,400;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
 *,
 ::after,
 ::before {
@@ -153,6 +154,16 @@ header {
     align-items: center;
     color: #f5f5f5;
     font-family: 'Lato';
+}
+
+.redirect-nav-top::after {
+    position: absolute;
+    content: '';
+    width: 5%;
+    bottom: 0;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #2d3436;
 }
 
 .middle-bar {
