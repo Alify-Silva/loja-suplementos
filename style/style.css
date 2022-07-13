@@ -31,7 +31,7 @@ header {
 
 .logo {
     position: relative;
-    width: 150px;
+    width: 120px;
     height: 75px;
     margin-left: 30px;
     margin-right: 45px;
@@ -53,12 +53,15 @@ header {
 */
 
 .nav-forms {
-    margin-left: 30px;
-    width: auto;
+    position: relative;
+    width: 370px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.nav-link-login{
+    display: flex;
 }
 
 .nav-link-login ul {
@@ -74,7 +77,8 @@ header {
 
 .nav-link-login ul li {
     position: relative;
-    width: 100px;
+    width: 240px;
+    height: 50;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -84,21 +88,32 @@ header {
     border: none;
 }
 
+
+
 .nav-link-login ul li a {
     color: #b2bec3;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
     font-weight: 600;
+    width: 80px;
 }
 
-
-#link-cad {
-    width: 200px;
-    margin-right: 15px;
+.nav-link-login ul li a:after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #2d3436;
+    left: 0;
+    
+}
+#link-clique {
+    
+    width: 100px;
 }
 
+.search-bar{
+
+}
 .search-text {
     width: 700px;
     height: 100%;
@@ -129,7 +144,7 @@ header {
 }
 
 .fa-cart-shopping {
-    margin-left: 10px;
+    margin-left: 30px;
     font-size: 35px;
     color: #2d3436;
 }
@@ -145,30 +160,8 @@ header {
     font-family: 'Lato';
 }
 
-.redirect-nav-top::before {
-    position: absolute;
-    justify-content:center;
-    display: block;
-    margin: 0 auto;
-    bottom: 1px;
-    content: '';
-    width: 0px;
-    height: 2px;
-    background-color: #2d3436;
-    transition: 0.4s;
-}
-
-.redirect-nav-top:hover::before{
-    position: absolute;
-    bottom: 1px;
-    content: '';
-    width: 1%;
-    height: 2px;
-    background-color: #2d3436;
-}
-
 .middle-bar {
-    width: 1366px;
+    width: 1280px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -238,9 +231,9 @@ header {
     transition: 0.4s;
 }
 
-.footer-bar ul li a::before{
+.footer-bar ul li a::before {
     position: absolute;
-    justify-content:center;
+    justify-content: center;
     display: block;
     margin: 0 auto;
     bottom: 1px;
@@ -251,7 +244,7 @@ header {
     transition: 0.4s;
 }
 
-.footer-bar ul li a:hover::before{
+.footer-bar ul li a:hover::before {
     position: absolute;
     bottom: 1px;
     content: '';
