@@ -297,9 +297,8 @@ main {
 }
 
 .container-exibicao {
-
-    width: 80%;
-    height: 50vh;
+    width: 100%;
+    height: 60vh;
     background-color: brown;
 }
 
@@ -326,14 +325,14 @@ main {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 11vw;
+    left: 5vw;
     z-index: 15;
 }
 #direita{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 11vw;
+    right: 5vw;
     z-index: 15;
 }
 
@@ -347,7 +346,7 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     background-size: 150%;
 
     background-repeat: no-repeat;
