@@ -286,9 +286,9 @@ main {
 
 
 .menu-itens {
-
+    position: relative;
     width: 100%;
-    height: 50vh;
+    height: 165px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,7 +298,7 @@ main {
 
 .container-exibicao {
     width: 100%;
-    height: 60vh;
+    height: 165px;
     background-color: brown;
 }
 
@@ -317,21 +317,19 @@ main {
     font-size: 1.1em;
     color: #2d3436;
     cursor: pointer;
-    top: 50%;
+    
 
 }
 
 #esquerda{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     left: 5vw;
     z-index: 15;
 }
+
+
 #direita{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     right: 5vw;
     z-index: 15;
 }
