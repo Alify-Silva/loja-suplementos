@@ -206,7 +206,7 @@ header {
     justify-content: center;
     align-items: center;
     line-height: 100%;
-    
+
     height: 100%;
 }
 
@@ -275,7 +275,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
@@ -286,7 +286,7 @@ main {
     overflow: hidden;
 }
 
-.container-exibicao a{
+.container-exibicao a {
     text-decoration: none;
 }
 
@@ -316,7 +316,8 @@ main {
     flex-direction: column;
     align-items: center;
 }
-#title-screen{
+
+#title-screen {
     font-size: 2em;
     font-weight: 800;
     color: #ffff;
@@ -342,7 +343,7 @@ main {
     width: auto;
 }
 
-.shadow-sub-container input[type="text"]{
+.shadow-sub-container input[type="text"] {
     width: 800px;
     height: 15px;
     padding: 28px 23px;
@@ -352,11 +353,43 @@ main {
     outline: none;
     border: none;
     color: #2d3436;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     transition: 0.3s;
 
 }
-.shadow-sub-container input[type="text"]:focus{
-    background-color: rgba(255,255,255,1);
 
+.shadow-sub-container input[type="text"]:focus {
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+#text-main {
+    z-index: 999;
+    position: absolute;
+
+    color: #f5f5f5;
+    font-size: 64px;
+
+}
+
+/* CONTAINER MAIN - CONTEUDOS E CARDS */
+
+.container-main {
+    width: 100%;
+    height: 120vh;
+    background-color: #b2bec3;
+}
+
+#icon-search-main{
+    bottom: 18px;
+    position: absolute;
+    right: 1vw;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
 }
