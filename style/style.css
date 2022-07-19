@@ -70,45 +70,6 @@ header {
     display: flex;
 }
 
-.nav-link-login table {
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    display: flex;
-    width: auto;
-    height: auto;
-    border: 1px solid;
-}
-
-.nav-link-login table tr {
-    position: relative;
-    width: 180px;
-    height: 50;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    color: #2d3436;
-    border: 1px solid;
-}
-.nav-link-login table tr td {
-    border: 1px solid;
-}
-
-.nav-link-login table tr #login {
-    width: 70px;
-
-}
-
-.nav-link-login tr td a {
-    color: #b2bec3;
-    text-decoration: none;
-    font-weight: 600;
-
-    width: 80px;
-}
 
 .nav-link-login tr td a:after {
     content: '';
