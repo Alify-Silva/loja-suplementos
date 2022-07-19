@@ -92,14 +92,6 @@ header {
     bottom: -2px;
 }
 
-#link-clique {
-    width: 120px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .search-text {
     width: 680px;
     background-color: #ffff;
