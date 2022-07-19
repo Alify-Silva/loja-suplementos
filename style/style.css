@@ -59,7 +59,7 @@ header {
 
 .nav-forms {
     position: relative;
-    width: 370px;
+    width: 480px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -70,7 +70,7 @@ header {
     display: flex;
 }
 
-.nav-link-login ul {
+.nav-link-login table {
     position: relative;
     align-items: center;
     justify-content: center;
@@ -78,10 +78,10 @@ header {
     display: flex;
     width: auto;
     height: auto;
-    border: none;
+    border: 1px solid;
 }
 
-.nav-link-login ul li {
+.nav-link-login table tr {
     position: relative;
     width: 180px;
     height: 50;
@@ -91,22 +91,26 @@ header {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: #2d3436;
-    border: none;
+    border: 1px solid;
+}
+.nav-link-login table tr td {
+    border: 1px solid;
 }
 
-.nav-link-login ul li #login {
-    width: 110px;
+.nav-link-login table tr #login {
+    width: 70px;
 
 }
 
-.nav-link-login ul li a {
+.nav-link-login tr td a {
     color: #b2bec3;
     text-decoration: none;
     font-weight: 600;
+
     width: 80px;
 }
 
-.nav-link-login ul li a:after {
+.nav-link-login tr td a:after {
     content: '';
     position: absolute;
     width: 0px;
@@ -117,7 +121,7 @@ header {
     transition: 0.4s;
 }
 
-.nav-link-login ul li a:hover::after {
+.nav-link-login tr td a:hover::after {
     content: '';
     position: absolute;
     width: 60px;
@@ -128,12 +132,15 @@ header {
 }
 
 #link-clique {
-    margin-left: 15px;
-    width: 95px;
+    width: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .search-text {
-    width: 675px;
+    width: 680px;
     background-color: #ffff;
     height: 40px;
     line-height: 40px;
