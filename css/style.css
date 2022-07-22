@@ -367,6 +367,8 @@ main {
 
 /* Edição Cadastro */
 
+
+/* inicio header cadastro*/
 #header-cadastro{
     position: fixed;
     top: 0;
@@ -377,32 +379,101 @@ main {
     background-color: #f5f5f5;
     display: flex;
     flex-direction: inherit;
-    padding: 30px;
+    padding-left: 80px;
     
 }
 
 
 #titulo-cadastro{
     width: 300px;
-    background-color: darkred;
     order: 2;
+        text-align: center;
+    font-family: dancing script;
 
-}
-
-#texto-esquerdo{
-    width: 200px;
-    background-color: darkred;
-    order: 3;
-      
-   
 }
 
 #texto-direito{
     width: 200px;
-    background-color: darkred;
+    order: 3;
+    margin-right: 50px;
+    padding: 5px;
+      
+   
+}
+
+#texto-esquerdo{
+    width: 200px;
     order: 1;
 
-    
+}
+
+/* Fim header cadastro*/
+
+/* inicio main cadastro*/
+
+#main-cadastro{
+    background-image: url(../templates/image/whey-img-2.jpg);
+    height: 100%;
+}
+
+#centro-cadastro{
+    margin-top: 50px;
+    margin-left: 400px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 40%;
+    align-items: center;
     
 }
+
+#conteudo-cadastro{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+#conteudo-cadastro input#nome, input#email, input#email2, input#senha{
+    width: 90%;
+    border: 0;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    border-bottom: 2px solid #ccc;
+    background-color: #f5f5f5;
+    outline: 0px;
+   
+}
+
+#conteudo-cadastro img{
+    position: absolute;
+    margin-top: 8px;
+}
+
+#botoes-formularios{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
